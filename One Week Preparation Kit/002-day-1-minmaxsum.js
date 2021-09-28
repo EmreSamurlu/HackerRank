@@ -1,8 +1,8 @@
-let arr = [1,3,9,5,4]
+let arr = [7, 69, 2, 221, 221]
 function miniMaxSum() {
     // Write your code here
     let sorted = arr.sort(function(a,b){return a-b})
-    // console.log(sorted)
+    console.log(sorted)
     let maxSum = 0;
     let minSum = 0;
 
